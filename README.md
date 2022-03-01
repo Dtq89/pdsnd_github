@@ -4,7 +4,7 @@
 2022-02-25
 
 ### Project Title
-Bikeshare is a Udacity python Project
+Bikeshare Udacity python Project
 
 ### Description
 A script to query data for a bike sharing company
