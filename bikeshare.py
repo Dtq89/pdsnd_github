@@ -1,20 +1,15 @@
-# -*- coding: utf-8 -*-
+
 """
 Created on Fri Jan 21 10:38:12 2022
 
 
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 19 15:14:06 2022
-
-@author: David
 """
 
 # this is a python project
 
 import time
 import pandas as pd
-from datetime import datetime
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -136,7 +131,9 @@ def time_stats(df):
     print('-'*40)
 
 def getstation(df, station):
+    """Function for getting the correct station"""
     return df[station].mode()[0]
+
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
