@@ -6,7 +6,7 @@ Created on Fri Jan 21 10:38:12 2022
 
 import time
 import pandas as pd
-from datetime import datetime
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
